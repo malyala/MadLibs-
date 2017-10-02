@@ -1,16 +1,17 @@
 import random
 import string 
 
-
-an = ['The Wig Party', 'Madonna', 'Uncle John']
-av = ['ran', 'slogged', 'boogied']
-ad = ['red', 'fat', 'hairless', 'cocky', 'ugly']
+#use files instead to work on larger database
+an = ['The Wig Party', 'Madonna', 'Uncle John'] # Nouns = open("nounfile", "r")
+av = ['ran', 'slogged', 'boogied'] # Verbs = open("verbfile", "r")
+ad = ['red', 'fat', 'hairless', 'cocky', 'ugly'] # Adjectives  = open("adjfile", "r")
 dan = []
 loa = []
 vea = []
 name = []
 fasa = []
 
+#remember to close file
 
 sentence = "noun verb into noun at mirror at the adjective house of noun in a adjective manner."
 words = sentence.split()
@@ -93,3 +94,4 @@ else:
         print(random.choice(ad))
     do = userdef()
     print(do)
+#fh.close()
