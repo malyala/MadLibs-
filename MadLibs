@@ -17,8 +17,8 @@ name = []
 '''
 hint: try something like this
 o = 'NN'
-v = 'VV'
-a = 'AA'
+v = 'VV' #for verbs, this can just use the array 'dan' now too!
+a = 'AA' #for adjectives, this can just use the array 'dan' now too!
 a=''
 b=''
 dan = [{a, b}]
