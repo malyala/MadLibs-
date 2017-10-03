@@ -115,5 +115,4 @@ else:
         print(random.choice(av))
         print(random.choice(ad))
     do = userdef()
-    print(do)
 #fh.close()
