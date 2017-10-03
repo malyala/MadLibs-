@@ -14,6 +14,27 @@ name = []
 
 #remember to close file
 
+'''
+hint: try something like this
+o = 'NN'
+v = 'VV'
+a = 'AA'
+a=''
+b=''
+dan = [{a, b}]
+
+#for example
+
+for c, word in enumerate(words):
+  #print(c, word)
+  if word == "noun":
+    a = c
+    dan.append(a)
+    b = o
+    dan.append(b)
+    print(dan)
+'''
+
 sentence = "noun verb into noun at the mirror at the adjective house of noun in a adjective manner."
 words = sentence.split()
 #print(words)
