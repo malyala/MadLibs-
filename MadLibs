@@ -9,11 +9,10 @@ dan = []
 loa = []
 vea = []
 name = []
-fasa = []
 
 #remember to close file
 
-sentence = "noun verb into noun at mirror at the adjective house of noun in a adjective manner."
+sentence = "noun verb into noun at the mirror at the adjective house of noun in a adjective manner."
 words = sentence.split()
 #print(words)
 for c, word in enumerate(words):
@@ -65,10 +64,10 @@ def userdef():
             #print(sentence)
     for ab, y in enumerate(loa):
         fina = raw_input("What adjective?")
-        fasa.append(fina)
-       # print(fasa)
-        for yo, fina in enumerate(fasa):
-            words[y] = fasa[yo]
+        name.append(fina)
+       # print(name)
+        for yo, fina in enumerate(name):
+            words[y] = name[yo]
             sentence = " ".join(words)
             #print(sentence)
     for lc, v in enumerate(vea):
