@@ -1,6 +1,8 @@
 import random
 import string 
 
+#can be implemented with more efficient space and time complexity, using less arrays
+#this version is a public guide for students, contact personally for guidance/information on efficient, robust solution
 #use files instead to work on larger database
 an = ['The Wig Party', 'Madonna', 'Uncle John'] # Nouns = open("nounfile", "r")
 av = ['ran', 'slogged', 'boogied'] # Verbs = open("verbfile", "r")
